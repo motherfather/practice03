@@ -43,7 +43,7 @@ public class BookShop {
 			} else {
 				sc = "재고있음";
 			}
-			System.out.println("책 제목 :" + book.title + ", 작가:" + book.author + ", 대여 유무:" + sc);
+			System.out.println("책 제목 :" + book.getTitle() + ", 작가:" + book.getAuthor() + ", 대여 유무:" + sc);
 		}
 	}
 }
