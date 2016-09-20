@@ -23,6 +23,7 @@ public class CalcApp {
 			// String operator = tokens[1];
 			// case "+":
 
+			
 			switch (operator[0]) {
 			case '+':
 				Add add = new Add();
@@ -47,6 +48,7 @@ public class CalcApp {
 			}
 
 
+			
 		}
 		scan.close();
 	}
