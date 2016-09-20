@@ -42,6 +42,8 @@ public class Book {
 		stateCode = 0;
 	}
 
-	// print() : void
+//	 public void print() {
+//		  System.out.println("책 제목:" + title + ", 작가:" + author + ", 대여 유무:" + (stateCode == 0 ? "재고있음" : "대여중"));
+//	 }
 
 }

@@ -20,6 +20,8 @@ public class CalcApp {
 			int lValue = Integer.parseInt(tokens[0]);
 			int rValue = Integer.parseInt(tokens[2]);
 			char[] operator = tokens[1].toCharArray();
+			// String operator = tokens[1];
+			// case "+":
 
 			switch (operator[0]) {
 			case '+':

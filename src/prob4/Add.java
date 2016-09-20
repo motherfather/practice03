@@ -8,7 +8,7 @@ public class Add {
 		this.b = b;
 	}
 	public int calculate() {
-		int sum = 0;
+		int sum = 0; // 인스턴스 변수(?)라서 초기화 안해도 됨!!!
 		sum = a + b;
 		return sum;
 	}

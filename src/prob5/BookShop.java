@@ -37,7 +37,9 @@ public class BookShop {
 	
 	private static void displayBookInfo(Book[] books) {
 		for(Book book : books) {
+//			book.print();
 			String sc;
+			
 			if(book.stateCode == 0){
 				sc = "대여중";
 			} else {
